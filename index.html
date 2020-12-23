@@ -15,22 +15,44 @@
 </head>
 
 <body>
-    <!---->
+    <!-- header with timer in it-->
+    <header>
+        <h2 class="timer"></h2>
+    </header>
     <div class="container">
-        <!--Below is the box that contains the header that stays the same throughout, which will be constant and the sections that will change throughout the quiz-->
-        <div class="quiz-box">
+        <!--Below is the div that will style all the boxes-->
+        
             <!-- the header that stays the same through-->
-            <div class="row quiztitle">
-                <h1 class=quizbodytitle>My Code Quiz</h1>
+            <div class="quiz-box start-quiz">
+                <h2 class="card-title">My Code Quiz</h2>
+                <p class="card-text">Would you like to take my code quiz? You will have 75 seconds to answer 5
+                    questions.Everytime you answer one wrong, 10 seconds will be deducted from your time. Good Luck and
+                    have fun. </p>
+                <a href="#" class="btn btn-start">Start Quiz</a>
             </div>
-            
-        </div>
+            <!--the format for the questions and answers to run through-->
+            <div class="quiz-box row ques-answer">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
+
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

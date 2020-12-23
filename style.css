@@ -1,5 +1,8 @@
 
 /* my basic styling for the body and header*/
+::after, ::before {
+    box-sizing: border-box;
+}
 
 body {
     padding: 0;
@@ -12,7 +15,16 @@ body {
 }
 .container {
     position: fixed;
-
+    padding: 100px;
+    position: center;
+    margin: 20px;
 }
+.quiz-box {
+    border-style: double;
+    background-color: rgb(86, 102, 13);
+    position: center;
+    padding: 100px;
+
+
 
 }
