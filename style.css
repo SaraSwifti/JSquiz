@@ -1,15 +1,19 @@
 
 /* my basic styling for the body and header*/
-::after, ::before {
+*::before, *::after {
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.d-n {
+    display: none;
 }
 
 body {
     padding: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    text-align: center;
+    margin: 0;
+    display: flex;
+    widows: 100%;
+    height: 100%;
     color: white;
     background: #857712;
 }
@@ -24,7 +28,7 @@ body {
     background-color: rgb(86, 102, 13);
     position: center;
     padding: 100px;
-
-
-
+}
+.btn {
+    background-color: white;
 }
