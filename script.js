@@ -2,7 +2,7 @@
 //variables and attributes//
 var timer = document.getElementById("timer");
 var timeCounter = document.getElementById("timeCounter")
-var setTimer = 75
+var count = 75
 var btnStart = document.getElementById("start-btn");
 var questionBox = document.getElementById("question-box")
 var startBox = document.getElementById("quizStart")
@@ -23,7 +23,7 @@ var questions = [
         correctAns: "arrays"
     },
     {
-        promptQuestion:"which Data type contains multiple data types that are separated by commas and has a simular name to a sea creature?",
+        promptQuestion: "which Data type contains multiple data types that are separated by commas and has a simular name to a sea creature?",
         choices: ["stings", "boolance", "arrays", "objects"],
         correctAns: "arrays"
     },
@@ -70,16 +70,27 @@ function countdown() {
   }*/
 
 // function to start the quiz//
-btnStart.addEventListener("click",startQuiz);
-function startQuiz(){
+btnStart.addEventListener("click", startQuiz);
+function startQuiz() {
+    
     questionBox.classList.remove("d-n");
     startBox.classList.add("d-n");
     timeCounter.classList.remove("d-n");
-    
 
 
 
+    // time set and counter? 
+    function gametime() {
+        var timeinterval = setInterval(function () {
+            timer.innerText = count
+            count--;
+        }, 1000);
+        setTimeout(function(){
+            alert.innerText=""
+        
+            }, 1000);
+
+    }
 
     //everything that needs to happen when the program needs to start over again//
 }
-//
