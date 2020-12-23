@@ -72,10 +72,11 @@ function countdown() {
 // function to start the quiz//
 btnStart.addEventListener("click",startQuiz);
 function startQuiz(){
-    console.log("quiz starting");
     questionBox.classList.remove("d-n");
     startBox.classList.add("d-n");
+    timeCounter.classList.remove("d-n");
     
+
 
 
 
