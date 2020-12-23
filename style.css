@@ -1,0 +1,18 @@
+
+/* my basic styling for the body and header*/
+
+body {
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+    background: #857712;
+}
+.container {
+    position: fixed;
+
+}
+
+}
